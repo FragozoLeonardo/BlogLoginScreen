@@ -1,0 +1,13 @@
+.pagode-image {
+    background-image: url('../assets/su-san-lee-pagode.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 75% auto;
+    position: fixed;
+    width: 40%;
+    height: 90%;
+    top: auto;
+    left: 3.5%;
+    right: auto;
+    bottom: auto;
+}
