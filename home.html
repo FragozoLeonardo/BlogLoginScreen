@@ -2,10 +2,34 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Leo's Japan Related Project Login Screen</title>
+    <title>Leo's Japan Blog</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 <body>
-    <div class="pagode-image"></div>
+    <div class="container">
+        <div class="pagode-image"></div>
+        <div class="login-container">
+            <h1>Bem vindo! ようこそ！</h1>
+            <form id="login-form" action="#" method="post">
+                <div class="input-container">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="remember-forgot">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Lembrar senha</label>
+                    <a href="#" class="forgot-password">Esqueci minha senha</a>
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Leonardo Quadros Fragozo
+    </footer>
 </body>
 </html>
